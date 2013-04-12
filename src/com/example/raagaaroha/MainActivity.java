@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 			
 			Intent intent = new Intent(MainActivity.this,RaagaDisplay.class);
 			
-			intent.putExtra("position",Integer.toString(position));
+			intent.putExtra("position",position);
 			
 			startActivity(intent);
 			
